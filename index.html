@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Ejercicios del DOM</h1>
+    </header>
+    
+    <button class="button-menu-hamburguer">
+        <img src="img/menu.png" alt="menu hamburguesa" id="menu-hamburguer" class="menu-hamburguer">
+    </button>
+    <nav class="nav-menu-hamburguer" id="menu-hamburguer-activate">
+        <ul class="ul">
+            <li class="item"><a href="#section-1">Reloj digital y Alarma sonora</a></li>
+            <li class="item"><a href="#section-2">Sección 2</a></li>
+            <li class="item"><a href="#section-3">Sección 3</a></li>
+            <li class="item"><a href="#section-4">Sección 4</a></li>
+            <li class="item"><a href="#section-5">Sección 5</a></li>
+        </ul>
+    </nav>
+  
+    <main>
+        <section id="section-1" class="content-p">
+            <h2 class="p-title">Reloj digital y Alarma sonora</h2>
+            <div id="clock" class="clock"></div>
+            <div>
+                <button id="activate-clock">Iniciar Reloj</button>
+                <button id="deactivate-clock">Detener Reloj</button>
+                <button id="activate-alarm">Iniciar Alarma</button>
+                <button id="deactivate-alarm">Detener Alarma</button>
+            </div>
+        </section>
+        <section id="section-2" class="content-p">
+            <h2 class="p-title">Sección 2</h2>
+        </section>
+        <section id="section-3" class="content-p">
+            <h2 class="p-title">Sección 3</h2>
+        </section>
+        <section id="section-4" class="content-p">
+            <h2 class="p-title">Sección 4</h2>
+        </section>
+        <section id="section-5" class="content-p">
+            <h2 class="p-title">Sección 5</h2>
+        </section>
+    </main>
+    <script src="js/menuHamburguer.js"></script>
+    <script src="js/reloj.js"></script>
+</body>
+</html>

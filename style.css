@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+}
+
+.header__title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button-menu-hamburguer{
+    position: fixed;
+    right: 3px;
+    bottom: 0px;
+    z-index: 1000;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.menu-hamburguer{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0.4em;
+}
+
+.content-p{
+    padding-top: 1em;
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.content-p h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.clock h3{
+    width: 15%;
+    border-radius: 1em;
+    color: black;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.p-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-menu-hamburguer{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+}
+
+.item{
+    text-align: center;
+    width: 100vw;
+    height: 2em; 
+    margin: 3em 0;
+    font-size: 2em;
+    list-style: none;
+}
+
+.item a{
+    padding: .4em 0;
+    display: inline-block;
+    width: 100vw;
+    height: 2em;
+    color: yellow;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 0, 0.7);
+}
+
